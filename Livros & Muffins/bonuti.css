@@ -1,0 +1,157 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #5c4133;
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #BB9B8C;
+    height: 200px;
+}
+
+.menu-principal-2 {
+    width: 100%;
+    background-color: #5c4133;
+    height: 70px;
+
+}
+
+.redes-sociais {
+    width: 1200px;
+    margin-left: 420px;
+}
+
+.redes-sociais ul li {
+    margin-right: -75px;
+    display: inline-block;
+    float: right;
+    list-style: none;
+    padding: 60px;
+}
+
+.header-2 {
+    background-color: #5c4133;
+    width: 1300px;
+    padding: 16px;
+    margin-left: 410px;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #BB9B8C;
+    margin-left: 100px;
+    height: 28px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #BB9B8C;
+}
+
+.menu ul li a:hover {
+    color: #BB9B8C;
+
+}
+
+.menu ul li a {
+    color: #BB9B8C;
+    text-decoration: none;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+main,
+.content {
+    margin: 0 auto;
+    width: 1500px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    margin-left: -140px;
+    padding: 0px;
+    width: 70%;
+}
+
+.lojaimg {
+    padding: 40px;
+    margin-left: 10px;
+}
+
+.slider-container {
+    display: flex;
+    width: 900px;
+    height: 670px;
+    overflow: hidden;
+    margin-left: 70px;
+
+}
+
+.slider-item {
+    position: absolute;
+    width: 200px;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slider-item.active {
+    opacity: 1;
+}
+
+.hist {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 70px;
+    font-family: BrowalliaUPC, sans-serif;
+}
+
+.phist {
+    text-align: left;
+    margin-left: 70px;
+    font-size: 28px;
+}
+
+
+
+.rodape {
+    width: 100%;
+    background-color: #775c4c;
+    height: 275px;
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.baixo {
+
+    padding: 40px;
+    font-size: 21px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.Contatos {
+    font-size: 35px;
+    text-align: left;
+    margin-left: 70px;
+    font-family: BrowalliaUPC, sans-serif;
+}
+
+.Fale_Conosco {
+    text-align: left;
+    margin-left: 70px;
+    font-size: 35px;
+}
